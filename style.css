@@ -143,12 +143,14 @@ footer {
 }
 
 .recipe-card ol {
-  padding-left: 20px;
+  padding-left: 28px;        /* space from left edge */
+  margin-top: 8px;
   font-size: 0.95rem;
   color: #555;
 }
 
 .recipe-card ol li {
-  margin-bottom: 6px;
-  line-height: 1.5;
+  margin-bottom: 8px;        /* space between lines */
+  padding-left: 6px;        /* space between number & text */
+  line-height: 1.6;         /* better readability */
 }
