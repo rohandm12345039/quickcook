@@ -154,3 +154,35 @@ footer {
   padding-left: 6px;        /* space between number & text */
   line-height: 1.6;         /* better readability */
 }
+
+/* Left align all content inside recipe cards */
+.recipe-card .content {
+  text-align: left;
+}
+
+/* Recipe title */
+.recipe-card h3 {
+  text-align: left;
+}
+
+/* Ingredients text */
+.recipe-card p {
+  text-align: left;
+}
+
+/* Instructions heading */
+.recipe-card h4 {
+  text-align: left;
+}
+
+/* Ordered list */
+.recipe-card ol {
+  text-align: left;
+  padding-left: 32px;
+}
+
+/* List item spacing */
+.recipe-card ol li {
+  padding-left: 6px;
+  line-height: 1.6;
+}
