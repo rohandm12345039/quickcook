@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>QuickCook</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- HERO SECTION -->
+  <section class="hero">
+    <div class="overlay"></div>
+
+    <div class="hero-content">
+      <h1>QuickCook</h1>
+      <h2>Smart cooking starts here.</h2>
+
+      <p>
+        Not sure what to cook? QuickCook has you covered.
+        Choose an ingredient and explore simple, delicious recipes instantly.
+      </p>
+
+      <div class="search-box">
+        <select id="ingredient">
+          <option value="">Select an ingredient...</option>
+          <option value="tomato">Tomato</option>
+          <option value="potato">Potato</option>
+          <option value="egg">Egg</option>
+          <option value="chicken">Chicken</option>
+          <option value="paneer">Paneer</option>
+        </select>
+        <button onclick="findRecipes()">Find Recipes</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- RESULT MESSAGE -->
+  <section class="results">
+    <p id="message">🔍 Pick an ingredient above to discover recipes!</p>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    © 2026 QuickCook – Made with ❤️ for food lovers
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
