@@ -3,14 +3,24 @@ const recipeData = {
     {
       name: "Classic Tomato Soup",
       ingredients: "4 ripe tomatoes, 1 onion, 2 cloves garlic, olive oil, salt & pepper, fresh basil",
-      steps: "Heat olive oil in a pot and sauté diced onion until soft. Add minced garlic and cook for 1 minute. Add chopped tomatoes, salt, and pepper, then simmer for 20 minutes. Blend until smooth, garnish with basil, and serve hot.",
-      image: "https://images.unsplash.com/photo-1604908554164-f3c6b4b75f07"
+      steps: [
+        "Heat olive oil in a pot and sauté diced onion until soft.",
+        "Add minced garlic and cook for 1 minute.",
+        "Add chopped tomatoes, salt, and pepper. Simmer for 20 minutes.",
+        "Blend until smooth, garnish with basil, and serve hot."
+      ],
+      image: "https://images.unsplash.com/photo-1547592166-23ac45744acd?w=400&h=300&fit=crop"
     },
     {
       name: "Bruschetta",
       ingredients: "3 tomatoes, fresh basil, garlic, baguette slices, olive oil, balsamic vinegar",
-      steps: "Dice tomatoes and mix with chopped basil, minced garlic, olive oil, and balsamic vinegar. Toast baguette slices until golden. Spoon the tomato mixture onto each slice and serve immediately.",
-      image: "https://images.unsplash.com/photo-1604908177522-4029c7f98b7c"
+      steps: [
+        "Dice tomatoes and mix with chopped basil, minced garlic, olive oil, and balsamic vinegar.",
+        "Toast baguette slices until golden.",
+        "Spoon the tomato mixture onto each slice.",
+        "Serve immediately as an appetizer."
+      ],
+      image: "https://images.unsplash.com/photo-1572695157366-5e585ab2b69f?w=400&h=300&fit=crop"
     }
   ],
 
@@ -18,14 +28,24 @@ const recipeData = {
     {
       name: "Crispy Potato Wedges",
       ingredients: "3 potatoes, olive oil, paprika, garlic powder, salt",
-      steps: "Preheat oven to 220°C. Cut potatoes into wedges and toss with olive oil and spices. Spread on a baking sheet in a single layer. Bake for 30–35 minutes until golden and crispy.",
-      image: "https://images.unsplash.com/photo-1573080496219-bb080dd4f877"
+      steps: [
+        "Preheat oven to 220°C.",
+        "Cut potatoes into wedges.",
+        "Toss with olive oil and spices.",
+        "Bake for 30–35 minutes until crispy."
+      ],
+      image: "https://images.unsplash.com/photo-1573080496219-bb080dd4f877?w=400&h=300&fit=crop"
     },
     {
       name: "Herb Roasted Potatoes",
       ingredients: "Potatoes, olive oil, rosemary, garlic, salt & pepper",
-      steps: "Preheat oven to 200°C. Cut potatoes into bite-sized pieces. Toss with olive oil, rosemary, garlic, salt, and pepper. Roast for 35–40 minutes until golden and crispy.",
-      image: "https://9bedc64c-40fb-45aa-888f-7212918430c0.lovableproject.com/src/assets/roasted-potatoes.jpg"
+      steps: [
+        "Preheat oven to 200°C.",
+        "Cut potatoes into bite-sized pieces.",
+        "Toss with olive oil, rosemary, garlic, salt, and pepper.",
+        "Roast for 35–40 minutes until golden and crispy."
+      ],
+      image: "https://plus.unsplash.com/premium_photo-1695224545124-3ef48642ec92?w=600&auto=format&fit=crop&q=60"
     }
   ],
 
@@ -33,13 +53,23 @@ const recipeData = {
     {
       name: "French Omelette",
       ingredients: "3 eggs, butter, salt & pepper, fresh herbs",
-      steps: "Whisk eggs with salt and pepper. Melt butter in a non-stick pan over medium heat. Pour in eggs and gently stir while tilting the pan. When just set, fold omelette, garnish with herbs, and serve.",
+      steps: [
+        "Whisk eggs with salt and pepper.",
+        "Melt butter in a non-stick pan.",
+        "Pour eggs and gently stir.",
+        "Fold omelette, garnish with herbs, and serve."
+      ],
       image: "https://images.unsplash.com/photo-1510693206972-df098062cb71?w=400&h=300&fit=crop"
     },
     {
       name: "Egg Fried Rice",
       ingredients: "2 eggs, cooked rice, soy sauce, green onions, sesame oil, peas & carrots",
-      steps: "Heat sesame oil in a wok. Scramble eggs and push to the side. Add rice and vegetables, stir-fry for 3 minutes. Add soy sauce, toss well, and garnish with green onions.",
+      steps: [
+        "Heat sesame oil in a wok.",
+        "Scramble eggs and push aside.",
+        "Add rice and vegetables, stir-fry.",
+        "Add soy sauce, toss, and serve."
+      ],
       image: "https://images.unsplash.com/photo-1603133872878-684f208fb84b?w=400&h=300&fit=crop"
     }
   ],
@@ -48,13 +78,23 @@ const recipeData = {
     {
       name: "Butter Chicken",
       ingredients: "Chicken, tomato puree, cream, butter, garam masala, ginger-garlic paste",
-      steps: "Marinate chicken in yogurt and spices for 30 minutes. Cook chicken in butter until golden. Add ginger-garlic paste, tomato puree, and spices. Stir in cream, add chicken back, simmer for 15 minutes, and serve hot.",
+      steps: [
+        "Marinate chicken in yogurt and spices.",
+        "Cook chicken in butter until golden.",
+        "Add tomato puree and spices.",
+        "Add cream, simmer, and serve."
+      ],
       image: "https://images.unsplash.com/photo-1603894584373-5ac82b2ae398?w=400&h=300&fit=crop"
     },
     {
       name: "Grilled Chicken Salad",
       ingredients: "Chicken breasts, mixed greens, cherry tomatoes, cucumber, olive oil, lemon juice",
-      steps: "Season chicken with salt, pepper, and olive oil. Grill for 6–7 minutes per side until cooked. Slice chicken and arrange over mixed greens and vegetables. Drizzle with lemon-olive oil dressing and serve.",
+      steps: [
+        "Season chicken with salt and olive oil.",
+        "Grill chicken until cooked.",
+        "Slice and place over vegetables.",
+        "Drizzle dressing and serve."
+      ],
       image: "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=400&h=300&fit=crop"
     }
   ],
@@ -63,14 +103,24 @@ const recipeData = {
     {
       name: "Paneer Tikka",
       ingredients: "Paneer, yogurt, bell peppers, onion, tikka masala, lemon juice",
-      steps: "Cube paneer and vegetables and marinate in spiced yogurt for 1 hour. Thread onto skewers alternating paneer and veggies. Grill or bake at 200°C for 15–20 minutes. Squeeze lemon juice and serve with mint chutney.",
-      image: "https://images.unsplash.com/photo-1626082927489-0bfa4f8c4c30"
+      steps: [
+        "Marinate paneer and vegetables in spiced yogurt.",
+        "Thread paneer and veggies onto skewers.",
+        "Grill or bake at 200°C for 15–20 minutes.",
+        "Squeeze lemon juice and serve."
+      ],
+      image: "https://images.unsplash.com/photo-1567188040759-fb8a883dc6d8?w=400&h=300&fit=crop"
     },
     {
       name: "Palak Paneer",
       ingredients: "Paneer, spinach, onion, tomato, cream, cumin, garam masala",
-      steps: "Blanch spinach and blend into a smooth puree. Sauté paneer cubes until golden and set aside. Cook onion and tomato with spices until soft. Add spinach puree and paneer, simmer with cream for 10 minutes, and serve.",
-      image: "https://images.unsplash.com/photo-1631452180519-c014fe946bc7"
+      steps: [
+        "Blanch spinach and blend into puree.",
+        "Fry paneer cubes and set aside.",
+        "Cook onion and tomato with spices.",
+        "Add spinach puree, paneer, cream, and simmer."
+      ],
+      image: "https://images.unsplash.com/photo-1631452180519-c014fe946bc7?w=400&h=300&fit=crop"
     }
   ]
 };
@@ -82,7 +132,7 @@ function findRecipes() {
 
   recipesDiv.innerHTML = "";
 
-  if (ingredient === "") {
+  if (!ingredient) {
     message.textContent = "⚠️ Please select an ingredient first!";
     return;
   }
@@ -98,7 +148,11 @@ function findRecipes() {
       <div class="content">
         <h3>${recipe.name}</h3>
         <p><strong>Ingredients:</strong> ${recipe.ingredients}</p>
-        <p><strong>Steps:</strong> ${recipe.steps}</p>
+
+        <h4>Instructions</h4>
+        <ol>
+          ${recipe.steps.map(step => `<li>${step}</li>`).join("")}
+        </ol>
       </div>
     `;
 
